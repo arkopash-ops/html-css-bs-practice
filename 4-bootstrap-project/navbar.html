@@ -1,0 +1,108 @@
+<!-- 16. Build a Bootstrap navbar with a dropdown and mobile toggle. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q16</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- hero section -->
+    <div class="container">
+      <header class="bg-primary text-white text-center py-5 mb-4">
+        <h1>Welcome to Our Landing Page</h1>
+        <p class="lead">Discover our services and offerings</p>
+      </header>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="../src/img/owl.jpg"
+              class="card-img-top"
+              alt="Service 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Service 1</h5>
+              <p class="card-text">Description of Service 1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="../src/img/sun.jpg"
+              class="card-img-top"
+              alt="Service 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Service 2</h5>
+              <p class="card-text">Description of Service 2.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="../src/img/car.jpg"
+              class="card-img-top"
+              alt="Service 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Service 3</h5>
+              <p class="card-text">Description of Service 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid">
+      <footer class="bg-dark text-white text-center py-4 mt-4">
+        <p>&copy; 2024 Our Company. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

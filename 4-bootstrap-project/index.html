@@ -1,0 +1,67 @@
+<!-- 15. Create a responsive landing page using Bootstrap grid (container, row, col). -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q15</title>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="bg-primary text-white text-center py-5 mb-4">
+        <h1>Welcome to Our Landing Page</h1>
+        <p class="lead">Discover our services and offerings</p>
+      </header>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="../src/img/owl.jpg"
+              class="card-img-top"
+              alt="Service 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Service 1</h5>
+              <p class="card-text">Description of Service 1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="../src/img/sun.jpg"
+              class="card-img-top"
+              alt="Service 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Service 2</h5>
+              <p class="card-text">Description of Service 2.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="../src/img/car.jpg"
+              class="card-img-top"
+              alt="Service 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Service 3</h5>
+              <p class="card-text">Description of Service 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="bg-dark text-white text-center py-4 mt-4">
+        <p>&copy; 2024 Our Company. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
