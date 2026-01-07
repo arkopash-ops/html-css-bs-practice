@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules/
+
+# NPM logs
+npm-debug.log*
+package-lock.json
+
+# Environment files
+.env
+.env.local
+
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build / cache (future-proof)
+dist/
+build/
+.cache/
+.tmp/
