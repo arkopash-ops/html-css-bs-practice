@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f4f4f4;
+  transition: all 0.3s ease;
+}
+
+section div {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+section div:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+section div p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+section div ul {
+  list-style: none;
+  padding: 0;
+}
+
+section div ul li {
+  margin: 10px 0;
+}
+
+section div button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+section div button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
