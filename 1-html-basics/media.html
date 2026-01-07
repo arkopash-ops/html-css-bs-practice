@@ -1,0 +1,29 @@
+<!-- 5. Audio & video embed with fallback text -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q05</title>
+  </head>
+  <body>
+    <h1>Audio & Video Embed with Fallback Text</h1>
+
+    <section>
+      <h2>Audio Example</h2>
+      <audio controls aria-label="Simple Audio File">
+        <source src="../src/audio/audio-file.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section>
+      <h2>Video Example</h2>
+      <video width="320" height="240" controls aria-label="Simple Video File" poster="../src/img/montain.jpg" muted>
+        <source src="../src/video/video-file.mp4" type="video/mp4" />
+        Your browser does not support the video element.
+      </video>
+    </section>
+  </body>
+</html>
