@@ -1,11 +1,11 @@
-# HTML • CSS • Bootstrap Practice 💻✨
+# HTML • CSS • Bootstrap Practice
 
 This repository contains **20 hands-on frontend practice tasks** built using **HTML, CSS, and Bootstrap**.  
 The goal is to strengthen **real-world layout skills, responsiveness, and UI confidence** through practical implementation.
 
 ---
 
-## 🧱 HTML – Structure & Semantics
+## HTML – Structure & Semantics
 1. Semantic HTML page (header, nav, main, section, footer)
 2. Registration form (inputs, radio, checkbox, submit)
 3. Student data table (thead, tbody, tfoot)
@@ -14,7 +14,7 @@ The goal is to strengthen **real-world layout skills, responsiveness, and UI con
 
 ---
 
-## 🎨 CSS – Styling & Layout
+## CSS – Styling & Layout
 6. Styled login page (centered form, hover effects)
 7. Card component (image, title, button)
 8. Responsive navbar using Flexbox
@@ -23,7 +23,7 @@ The goal is to strengthen **real-world layout skills, responsiveness, and UI con
 
 ---
 
-## 📐 CSS Layout Mastery
+## CSS Layout Mastery
 11. Photo gallery using CSS Grid
 12. Pricing section with 3 cards
 13. Sticky header
@@ -31,7 +31,7 @@ The goal is to strengthen **real-world layout skills, responsiveness, and UI con
 
 ---
 
-## 🅱️ Bootstrap – Fast & Responsive UI
+## Bootstrap – Fast & Responsive UI
 15. Responsive landing page using Bootstrap grid
 16. Bootstrap navbar with dropdown & toggle
 17. Bootstrap form with validation styles
@@ -41,15 +41,15 @@ The goal is to strengthen **real-world layout skills, responsiveness, and UI con
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 - HTML5  
 - CSS3  
 - Bootstrap 5  
 
 ---
 
-## 🎯 Goal
+## Goal
 Build confidence by **creating**, not just reading.  
 Perfect for **students, interns, and frontend beginners**.
 
-Happy coding! 💙
+Happy coding! 
